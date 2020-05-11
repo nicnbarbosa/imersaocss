@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(rgb(27, 45, 202), rgb(77, 87, 179));
+    background-size: auto 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu {
+    background-color: white;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(4, 11, 119);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-title {
+    text-shadow: 1.8px 1px;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
