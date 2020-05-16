@@ -1,14 +1,58 @@
+/* soft reset do CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(rgb(27, 45, 202), rgb(77, 87, 179));
     background-size: auto 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
-    margin: 0;
+    font-size: 12px;
+}
+
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* breakpoint */
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* breakpoint */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
     background-color: white;
-    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .menu ul {
@@ -21,6 +65,11 @@ body {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
 }
 
 a {
@@ -39,6 +88,7 @@ a:hover {
 }
 
 .site-title {
+    font-size: 4em;
     text-shadow: 1.8px 1px;
 }
 
@@ -51,4 +101,9 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: center;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 180px;
 }
