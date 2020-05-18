@@ -7,30 +7,26 @@
     <title>Imersão CSS | Nicole Barbosa</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb6c53adf9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="https://github.com/nicnbarbosa1568">Github</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="https://www.alura.com.br/">Alura</a></li>
-                <li><a href="https://www.alura.com.br/imersao-css?utm_campaign=imersao_hipsterscss_divulgacao_p_quarentiners_e_interessados&utm_medium=email&utm_source=RD+Station">Imersão Hipsters CSS</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="titulo">
             <h1 class="site-title">Nicole Barbosa</h1>
             <h2 class="site-subtitle">web developer</h2>
-            <p>
-                Olá! Meu nome é Nicole, sou estudante de Informática, e estou buscando aperfeiçoar meus conhecimentos de <b>desenvolvimento web</b>. Este site é resultado da primeira aula do <b>Imersão Hipsters CSS</b>, curso ministrado por Vanessa Tonini
-                e Juliana Amoasei.
-            </p>
         </div>
 
     </header>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <h2>Projetos</h2>
         <div class="grid">
             <figure>
@@ -53,6 +49,24 @@
                 <img class="img-portfolio" src="./img/hobby.png" alt="Handstand">
                 <figcaption>Handstand</figcaption>
             </figure>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/nicnbarbosa1568">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/nic_nbarbosa">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="www.linkedin.com/in/nicole-barbosa-841950199">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:nic.nbarbosa@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
         </div>
     </section>
 
